@@ -31,22 +31,22 @@
       <section class="hero" aria-labelledby="intro-title">
         <div class="hero-copy">
           <p class="eyebrow">SNU undergraduate / Business Administration / AI</p>
-          <h1 id="intro-title">Analytical range, cultural instinct.</h1>
+          <h1 id="intro-title">Business, AI, finance, and culture.</h1>
           <p class="intro">
             I am SeongTag Kim, a 3rd-year undergraduate at Seoul National
             University double majoring in Business Administration and Artificial
-            Intelligence. I care about finance, systems, art, travel, and the
-            discipline of looking closely.
+            Intelligence. My interests connect finance, systems, art, writing,
+            and travel.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button secondary" href="#about">Explore profile</a>
+            <a class="button secondary" href="#experience">View experience</a>
             <a class="button secondary" href="https://blog.naver.com/kevinst1">Read art blog</a>
             <a class="button tertiary" href="#contact">Contact</a>
           </div>
         </div>
 
-        <div class="profile-board editorial-board" aria-label="Profile highlights">
-          <article class="pin-card photo-pin pin-large">
+        <aside class="profile-panel" aria-label="Profile summary">
+          <div class="profile-image-wrap">
             <img
               class="profile-image"
               src="assets/profile.jpg"
@@ -54,61 +54,35 @@
               onerror="if (!this.dataset.triedPng) { this.dataset.triedPng = 'true'; this.src = 'assets/profile.png'; } else { this.hidden = true; this.nextElementSibling.hidden = false; }"
             >
             <span class="profile-placeholder" hidden aria-hidden="true">SK</span>
-            <span class="pin-pill">SeongTag Kim</span>
-          </article>
-
-          <article class="pin-card fact-pin">
-            <p class="pin-label">Current</p>
-            <h2>Seoul National University</h2>
-            <p>3rd-year undergraduate student.</p>
-          </article>
-
-          <article class="pin-card image-accent small-accent">
-            <img
-              src="assets/pic2.jpg"
-              alt="Colorful handwritten art notes and exhibition cards"
-              loading="lazy"
-            >
-            <span class="pin-pill">Art notes</span>
-          </article>
-
-          <article class="pin-card fact-pin dark">
-            <p class="pin-label">Finance</p>
-            <h2>CFA Level 3 Candidate</h2>
-            <p>Passed Level 1 and Level 2.</p>
-          </article>
-
-          <article class="pin-card image-accent">
-            <img
-              src="assets/pic7.jpg"
-              alt="Large colorful abstract wall painting inside a gallery"
-              loading="lazy"
-            >
-            <span class="pin-pill">Color field</span>
-          </article>
-        </div>
+          </div>
+          <dl class="quick-facts">
+            <div>
+              <dt>University</dt>
+              <dd>Seoul National University</dd>
+            </div>
+            <div>
+              <dt>Majors</dt>
+              <dd>Business Administration + AI</dd>
+            </div>
+            <div>
+              <dt>Finance</dt>
+              <dd>CFA Level 3 Candidate</dd>
+            </div>
+          </dl>
+        </aside>
       </section>
 
-      <section id="about" class="section about-section" aria-labelledby="about-title">
-        <div class="section-copy">
+      <section id="about" class="section split-section" aria-labelledby="about-title">
+        <div>
           <p class="section-label">About</p>
-          <h2 id="about-title">Business, AI, finance, and a point of view.</h2>
-          <p>
-            My academic path combines business fundamentals with technical depth
-            in artificial intelligence. Outside the classroom, I write about art,
-            visit museums, and travel with an eye for the details that shape how
-            people understand places and ideas.
-          </p>
+          <h2 id="about-title">A concise profile across academics, finance, service, and culture.</h2>
         </div>
-
-        <figure class="editorial-photo">
-          <img
-            src="assets/pic3.jpg"
-            alt="Bright yellow flowers along a travel path"
-            loading="lazy"
-          >
-          <figcaption>Color, memory, and observation.</figcaption>
-        </figure>
+        <p>
+          My academic path combines business fundamentals with technical depth in
+          artificial intelligence. Beyond coursework, I write about art, visit
+          museums, and travel with an eye for how people, places, and ideas are
+          shaped.
+        </p>
       </section>
 
       <section id="education" class="section" aria-labelledby="education-title">
@@ -116,25 +90,17 @@
           <p class="section-label">Education</p>
           <h2 id="education-title">Academic foundation</h2>
         </div>
-        <div class="curated-grid">
-          <article class="pin-card text-pin tall">
-            <p class="pin-label">SNU</p>
+        <div class="card-grid two-column">
+          <article class="card">
+            <p class="card-meta">Current</p>
             <h3>Seoul National University</h3>
             <p>
               3rd-year undergraduate student double majoring in Business
               Administration and Artificial Intelligence.
             </p>
           </article>
-          <article class="pin-card image-accent quiet-photo">
-            <img
-              src="assets/pic9.jpg"
-              alt="Decorated museum ceiling with painted panels"
-              loading="lazy"
-            >
-            <span class="pin-pill">Visual study</span>
-          </article>
-          <article class="pin-card text-pin">
-            <p class="pin-label">SASA</p>
+          <article class="card">
+            <p class="card-meta">Prior education</p>
             <h3>Sejong Academy of Science and Arts</h3>
             <p>
               Graduate of SASA, with a strong foundation in rigorous analytical
@@ -149,88 +115,65 @@
           <p class="section-label">Leadership & experience</p>
           <h2 id="experience-title">Service, representation, and steady execution.</h2>
         </div>
-        <div class="curated-grid experience-grid">
-          <article class="pin-card text-pin dark tall">
-            <p class="pin-label">2024 - 2025</p>
-            <h3>Mandatory Military Service</h3>
+        <div class="card-grid experience-grid">
+          <article class="card dark-card">
+            <p class="card-meta">2024 - 2025</p>
+            <h3>Republic of Korea Air Force</h3>
             <p>
-              Completed mandatory military service, strengthening discipline,
-              reliability, and team-oriented execution.
+              Completed mandatory military service in the Air Force,
+              strengthening discipline, reliability, and team-oriented execution.
             </p>
           </article>
-          <article class="pin-card text-pin">
-            <p class="pin-label">2023</p>
+          <article class="card">
+            <p class="card-meta">2023</p>
             <h3>SNU Student Ambassador</h3>
             <p>
               Served as an SNU Student Ambassador, representing the university
               and supporting visitors, prospective students, and campus programs.
             </p>
           </article>
-          <article class="pin-card image-accent sculpture-photo">
-            <img
-              src="assets/pic4.jpg"
-              alt="Classical sculpture seen through an architectural arch"
-              loading="lazy"
-            >
-            <span class="pin-pill">Form and scale</span>
-          </article>
-          <article class="pin-card text-pin soft">
-            <p class="pin-label">2022 - 2023</p>
+          <article class="card">
+            <p class="card-meta">2022 - 2023</p>
             <h3>College of Business Administration Student Council</h3>
             <p>
               Active student council member for two years, contributing to
               student initiatives and college community operations.
             </p>
           </article>
-          <article class="pin-card text-pin accent">
-            <p class="pin-label">Certification</p>
-            <h3>CFA Level 3 Candidate</h3>
-            <p>
-              Successfully passed CFA Level 1 and Level 2; currently pursuing
-              CFA Level 3.
-            </p>
-          </article>
         </div>
       </section>
 
-      <section id="art-travel" class="section journal-section" aria-labelledby="art-title">
-        <div class="journal-copy">
-          <p class="section-label">Art & travel journal</p>
-          <h2 id="art-title">A sharper life comes from looking longer.</h2>
+      <section class="section credentials-section" aria-labelledby="credentials-title">
+        <div>
+          <p class="section-label">Credentials</p>
+          <h2 id="credentials-title">Finance and accounting</h2>
           <p>
-            I love delving into art and traveling around the world. My blog is
-            where I write about exhibitions, museums, cities, and the small
-            moments that reveal taste.
+            Successfully passed CFA Level 1 and Level 2, currently pursuing CFA
+            Level 3, and certified as a Certified Accounting Manager
+            (Intermediate level).
           </p>
-          <a class="button primary" href="https://blog.naver.com/kevinst1">Visit blog</a>
         </div>
+        <div class="credential-badge" aria-label="Credential summary">
+          <span>CFA Level 1 passed</span>
+          <span>CFA Level 2 passed</span>
+          <strong>CFA Level 3 Candidate</strong>
+          <span>Certified Accounting Manager (Intermediate level)</span>
+        </div>
+      </section>
 
-        <div class="journal-photos" aria-label="Selected art and travel photos">
-          <figure class="journal-photo main-journal-photo">
-            <img
-              src="assets/pic10.jpg"
-              alt="SeongTag Kim holding a book in a museum interior"
-              loading="lazy"
-            >
-            <figcaption>After the gallery.</figcaption>
-          </figure>
-          <figure class="journal-photo">
-            <img
-              src="assets/pic6.jpg"
-              alt="Blue sea view from a quiet coastal walkway"
-              loading="lazy"
-            >
-            <figcaption>Travel light.</figcaption>
-          </figure>
-          <figure class="journal-photo">
-            <img
-              src="assets/pic11.jpg"
-              alt="SeongTag Kim standing by a bright seaside promenade"
-              loading="lazy"
-            >
-            <figcaption>Open horizon.</figcaption>
-          </figure>
+      <section id="art-travel" class="section art-section" aria-labelledby="art-title">
+        <div>
+          <p class="section-label">Art & travel</p>
+          <h2 id="art-title">Writing about art, places, and attention.</h2>
+          <p>
+            I love delving into art and traveling around the world. I write about
+            art, museums, exhibitions, and the moments that make a place
+            memorable.
+          </p>
         </div>
+        <a class="button secondary blog-link" href="https://blog.naver.com/kevinst1">
+          Visit blog
+        </a>
       </section>
 
       <section id="resume" class="section resume-section" aria-labelledby="resume-title">
